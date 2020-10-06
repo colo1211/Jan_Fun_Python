@@ -6,12 +6,14 @@
 	<title> 
 		HTML TEST
 	</title>
-	</head>
+	<link rel="stylesheet" type="text/css" href="css/style.css"
+	</head> <!-- css파일을 끌어오는 방법-->
+
 <body> <!-- 문서 실제 내용 시작--> 
 	<b>안녕하세요!</b> <br> <!-- br태그는 enter키다.-->
 	<img src = "python-logo.png" id ='hi'>
-	<!-- 태그에는 속성을 넣을 수 있다.--> 
-	<table border=1> <!-- border 속성을 추가하면 표에 선이 나타난다. --> 
+	<!-- 태그에는 속성d을 넣을 수 있다.--> 
+	<table border=1 width=500> <!-- border 속성을 추가하면 표에 선이 나타난다. 표 크기는 500--> 
 		<thead> 
 			<tr>
 				<th>title</th>
@@ -20,8 +22,9 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td> 안녕 </td>
-				<td> 김경원 </td>
+				<td class='highlight'> 안녕 </td>
+				<!-- class로 본인이 설정한 변수를 끌어서 올수 있다. --> 
+				<td style="text-align=right"> 김경원 </td>
 			</tr>
 		</tbody>
 	</table>
